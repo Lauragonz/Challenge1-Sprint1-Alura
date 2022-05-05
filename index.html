@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Encriptador de textos</title>
+		<link rel="icon" href="./images/circle.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="./css/reset.css">
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+
+	</head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Encriptador/Desencriptador de Textos</h1>
+            </header>
+            <main class="container">
+                <div id="main-input">
+                    <form id="my-form">
+                        <label for="text"></label>
+                        <input class="input" type="text" placeholder="Ingrese el texto a modificar.">
+                    </form>
+                    <p class="condicion">* Ingrese el texto en letras minusculas y sin carácteres especiales.</p>
+                    <div class="btn">
+                        <input id="btn-enc" type="submit" value="Encriptar">
+                        <input id="btn-des" type="submit" value="Desencriptar">
+                    </div>
+                </div>
+                <div>
+                    <textarea name="codigo" id="codigo" cols="30" rows="10" placeholder="Ningún mensaje fue encontrado"></textarea>
+                </div>
+                <div class="btn">
+                    <input id="btn-cop" type="submit" value="Copiar">
+                </div>
+            </main>
+            <footer>
+                <img src="./images/logo.png" alt="Logo" title="Logo">
+                <p>Laura Gonzalez</p>
+                <p>laura.gonzamau@gmail.com</p>
+            </footer>
+        </div>
+        
+        <script src="./js/encriptar.js"></script>
+        <script src="./js/desencriptar.js"></script>
+        <script src="./js/copiar.js"></script>
+    </body>
+</html>
