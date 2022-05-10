@@ -1,2 +1,2 @@
-# Challenge1-Sprint1-Alura
+# Challengeonecodificador2
 Primer sprint del challenge número 1 de Alura: Encriptador/Desncriptador de textos.
